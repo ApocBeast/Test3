@@ -9,6 +9,7 @@ public class AnimationScript : MonoBehaviour
     
     [Header("Press [Spacebar] with the Game window active")]
     [Header("to trigger the animation ID (0-6) specified below.")]
+    [Header("Number key pressed changes Animation ID.")]
     public int animationID;
 
     void Start()
@@ -25,6 +26,41 @@ public class AnimationScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetTrigger("Trigger");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            animationID = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            animationID = 1;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            animationID = 2;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            animationID = 3;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            animationID = 4;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            animationID = 5;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            animationID = 6;
         }
 
         if (animator != null)
