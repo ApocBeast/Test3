@@ -16,10 +16,10 @@ MonoBehaviour:
   - title: DIRT
     position:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
+      x: 691
+      y: -249
+      width: 699
+      height: 2739
     contents:
     - model: {fileID: 8926484042661614555}
       id: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     x: 691
     y: -249
     width: 1439
-    height: 2751
+    height: 2739
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,8 +119,8 @@ VisualEffectResource:
       lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
-    m_PreWarmDeltaTime: 0.05
-    m_PreWarmStepCount: 0
+    m_PreWarmDeltaTime: 1
+    m_PreWarmStepCount: 1
     m_InitialEventName: OnPlay
 --- !u!114 &8926484042661614555
 MonoBehaviour:
@@ -681,7 +681,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614697}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614695}
-  m_UIPosition: {x: 941, y: 1706}
+  m_UIPosition: {x: 941, y: 1694}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
