@@ -66,7 +66,7 @@ MonoBehaviour:
     x: 691
     y: -249
     width: 1439
-    height: 2739
+    height: 2751
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -641,7 +641,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614814}
   - {fileID: 8926484042661614836}
-  m_UIPosition: {x: 941, y: 1202}
+  m_UIPosition: {x: 941, y: 1279}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -681,7 +681,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614697}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614695}
-  m_UIPosition: {x: 941, y: 1694}
+  m_UIPosition: {x: 941, y: 1706}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1287,7 +1287,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.TArcSphere, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"sphere":{"transform":{"position":{"x":-0.05390229821205139,"y":-0.0261579267680645,"z":9.740411144321115e-9},"angles":{"x":0.0,"y":0.0,"z":75.0},"scale":{"x":2.2387242317199709,"y":2.2387242317199709,"z":2.2387242317199709}},"radius":0.10000000149011612},"arc":3.139549732208252}'
+      m_SerializableObject: '{"sphere":{"transform":{"position":{"x":-0.05390229821205139,"y":-0.0261579267680645,"z":9.740411144321115e-9},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":2.2387242317199709,"y":2.2387239933013918,"z":2.2387242317199709}},"radius":0.10000000149011612},"arc":6.28000020980835}'
     m_Space: 0
   m_Property:
     name: arcSphere
@@ -3888,7 +3888,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-0.10000000149011612,"y":-0.03999999910593033,"z":0.0}'
+      m_SerializableObject: '{"x":-0.10000000149011612,"y":-0.12999999523162843,"z":0.0}'
     m_Space: 2147483647
   m_Property:
     name: center
